@@ -1,10 +1,10 @@
 version: 0.2
 env:
   secrets-manager:
-    aws_key_id: AKIAYREJCMY3VED3PWLE
+    AWS_KEY_ID: AKIAYREJCMY3VED3PWLE
     aws_key_secret: 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
-    docker_pass: dckr_pat_-rB9CW1cBEg1J9h-5iZeBRiXcEM
-    docker_username: ricardolabs34535
+    DOCKERHUB_PASS: dckr_pat_-rB9CW1cBEg1J9h-5iZeBRiXcEM
+    DOCKERHUB_USERNAME: ricardolabs34535
 phases:
   install: # Install AWS cli, maven
     runtime-versions:
